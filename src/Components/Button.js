@@ -25,7 +25,7 @@ export const Button = styled('button', {
     },
 
     '& svg': {
-        marginRight: '10px'
+        marginRight: '10px',
     },
 
 
