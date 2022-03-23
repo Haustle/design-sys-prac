@@ -19,7 +19,8 @@ export const Toast2 = ({ Button }) => {
 
     const ToastTitle = styled(ToastPrimitive.Title, {
         fontWeight: 500,
-        marginBottom: '5px'
+        marginBottom: '2px',
+        fontSize: '14px'
     })
 
     const ToastProvider = styled(ToastPrimitive.Provider, {
@@ -29,7 +30,7 @@ export const Toast2 = ({ Button }) => {
         fontFamily: 'Inter',
         border: '2px solid rgba(172, 180, 188, 0.5)',
         borderRadius: '16px',
-        padding: '20px 20px 20px 30px',
+        padding: '20px',
         marginBottom: '15px',
         marginRight: '15px',
         boxShadow: 'rgba(21, 50, 83, 0.1) 0px 1px 2px',
@@ -40,19 +41,19 @@ export const Toast2 = ({ Button }) => {
 
     const ToastDescription = styled(ToastPrimitive.Description, {
         color: '#676666',
-        fontSize: '1em'
+        fontSize: '13px'
     })
 
     const ToastClose = styled(ToastPrimitive.Close, {
-
-        backgroundColor: '#f4f4f4',
-        color: '#676666',
+        border: 'none',
+        // backgroundColor: '#f4f4f4',
+        backgroundColor: '#333533',
+        color: '#fff',
         borderRadius: '5px',
         height: 'max-content',
         padding: '7px',
         cursor: 'pointer',
-        border: '1px solid #E3E3E3',
-
+        fontSize: '13px'
     })
 
     const ToastDetails = styled('div', {

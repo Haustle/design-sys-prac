@@ -56,8 +56,22 @@ export const Button = styled('button', {
             },
         },
         size: {
-            
-        }
+            sm: {
+                fontSize: '12px'
+            },
+            md: {
+                fontSize: '16px'
+            },
+            lg: {
+                fontSize: '24px'
+            }
+        },
+
+        
+    },
+    defaultVariants: {
+        color: 'black',
+        size: 'sm'
     }
 })
 

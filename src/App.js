@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { Archive, Copy, Settings, Download, Moon } from 'react-feather';
 import { Button } from './Components/Button'
