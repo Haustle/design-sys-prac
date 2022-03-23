@@ -44,12 +44,15 @@ export const Toast2 = ({ Button }) => {
     })
 
     const ToastClose = styled(ToastPrimitive.Close, {
-        border: 'none',
+
         backgroundColor: '#f4f4f4',
+        color: '#676666',
         borderRadius: '5px',
         height: 'max-content',
         padding: '7px',
-        cursor: 'pointer'
+        cursor: 'pointer',
+        border: '1px solid #E3E3E3',
+
     })
 
     const ToastDetails = styled('div', {
