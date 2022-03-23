@@ -57,13 +57,13 @@ export const Button = styled('button', {
         },
         size: {
             sm: {
-                fontSize: '16px'
+                fontSize: '12px'
             },
             md: {
-                fontSize: '22px'
+                fontSize: '16px'
             },
             lg: {
-                fontSize: '26px'
+                fontSize: '24px'
             }
         },
 
